@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=14, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="cover">
+        <div class="header"><h1>URL SHORTENING</h1></div>
+        <div class="part1">
+          <div class="part1_1">
+            <h3>Create Short URL</h3>
+            <form id="myForm">
+              <label for="url_input">Url Original :</label>
+              <input
+                type="text"
+                id="url"
+                placeholder="https://www.google.com/"
+              />
+              <input type="submit" value="short url" />
+            </form>
+
+            <output id="output"></output>
+          </div>
+          <div class="part1_2">
+            <h3>Redirect short URLs to the original URLs</h3>
+            <form id="retrieve">
+              <label for="url_input">Url Short :</label>
+              <input type="text" id="url1" placeholder="HDwqsw" />
+              <input type="submit" value="short url" />
+            </form>
+            <output id="output4"></output>
+          </div>
+          <div class="part1_3">
+            <h3>Delete Short URL</h3>
+            <form id="delete">
+              <label for="url_input">Url Short :</label>
+              <input type="text" id="url4" placeholder="HDwqsw" />
+              <input type="submit" value="short url" />
+            </form>
+
+            <output id="output2"></output>
+          </div>
+        </div>
+        <div class="part2">
+          <div>
+            <h3>Update Short URL</h3>
+            <form id="update">
+              <label for="url_input">Url Short :</label>
+              <input type="text" id="url2" placeholder="HDwqsw" />
+              <label for="url_input">Original Url :</label>
+              <input
+                type="text"
+                id="url3"
+                placeholder="https://www.google.com/"
+              />
+              <input type="submit" value="short url" />
+            </form>
+            <output id="output1"></output>
+          </div>
+          <div>
+            <h3>Get URL Statistics</h3>
+            <form id="statistic">
+              <label for="url_input">Url Short :</label>
+              <input type="text" id="url5" placeholder="HDwqsw" />
+              <input type="submit" value="short url" />
+            </form>
+
+            <output id="output3"></output>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
