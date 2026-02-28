@@ -25,7 +25,7 @@ This section documents the main API endpoints, including required parameters, re
 
 You can interact with the API using tools such as Postman or through the provided simple UI.
 
-![Main UI](./screenshots/Screenshot 2026-02-28 204441.png)
+![Main UI](./screenshots/ui.png)
 
 ### Create Short URL
 
